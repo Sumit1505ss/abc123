@@ -1,0 +1,59 @@
+body {
+  background-image: url('https://img.freepik.com/premium-vector/education-school-pattern-design_260839-1.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710460800&semt=ais');
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a fallback font family */
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+  }
+  fieldset{
+    font-weight: bolder;
+    width: 100%;
+    border-width: 10px;
+  }
+  
+  
+  h1 {
+    text-align: center; /* Center the heading */
+  }
+  
+  form {
+    font: weight 900px; ;
+    text-align: left; /* Align form elements to the left */
+  }
+  
+  label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add space below labels */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 92%; /* Full width for input fields and button */
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between form elements */
+    border-radius: 3px;
+    border: 1px solid #181616; /* Add a border to form elements */
+  }
+  button{
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }

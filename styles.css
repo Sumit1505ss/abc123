@@ -1,0 +1,77 @@
+body {
+
+background-color: #a89871;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Align items vertically in the center */
+  height: 100vh; /* Full viewport height */
+}
+
+.logo-container {
+  margin-left: 150px; /* Adjust margin as needed */
+}
+
+.logo {
+  width: 0px; /* Adjust the logo size as needed */
+  height: auto;
+}
+
+.content {
+  text-align: center; /* Center the content horizontally */
+  margin-right: 300px;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.buttons {
+ 
+  margin-top: 20px;
+}
+
+.btn {
+
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color:#8c6454;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.tab {
+  width: 45%; /* Adjust as needed */
+}
+
+fieldset {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.form-text{
+  text-align: center;
+}
